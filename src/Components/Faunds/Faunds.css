@@ -1,0 +1,149 @@
+.container {
+  padding-top: 90px;
+  color: #fff;
+  width: 90%;
+  margin: auto;
+}
+.faunds-heading {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "DM Sans", sans-serif;
+  margin: 30px 0;
+}
+
+.card-container {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.cards {
+  width: 33.33%;
+  background-color: #24244a;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 0.5;
+  margin-right: 22px;
+  margin-bottom: 15px;
+}
+.usd {
+  font-size: 14px;
+  font-weight: 700;
+}
+.rewards {
+  color: #aef33c;
+}
+.cards > h3 {
+  font-size: 22px;
+}
+.cards > p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #c7c7e1;
+}
+
+.card {
+  width: 20%;
+  padding: 5px;
+  line-height: 0;
+  margin-left: 15px;
+  padding-top: 12px;
+  border-right: 0.5px solid #24244a;
+}
+.card > h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.card > p {
+  font-size: 10px;
+  font-weight: 500;
+  color: #c7c7e1;
+}
+.main-card {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #1a1a36;
+  display: flex;
+}
+.pools-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.pools-heading > div {
+  border-top: 1.5px solid #24244a;
+  width: 90%;
+}
+
+.icons-div {
+  display: flex;
+}
+.icons-div > div {
+  line-height: 0;
+}
+
+.icons-div > img {
+  margin-right: 19px;
+  width: 50px;
+}
+
+.icons-div > div > p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #c7c7e1;
+}
+h5 {
+  color: #c7c7e1;
+}
+.panel-div {
+  /* padding: 10px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+.apr {
+  line-height: 0;
+}
+
+.vtx {
+  line-height: 0.5;
+}
+.tvl {
+  line-height: 0.5;
+}
+.clamble h5 {
+  line-height: 0.5;
+  color: #c7c7e1;
+}
+.clamble > h5 {
+  color: #c7c7e1;
+}
+.pooolcard1 {
+  margin-bottom: 10px;
+  background: rgb(58, 59, 126);
+  background: linear-gradient(
+    90deg,
+    rgba(58, 59, 126, 1) 7%,
+    rgba(36, 36, 74, 1) 22%
+  );
+  border-radius: 5px;
+}
+
+.pooolcard2 {
+  margin-bottom: 10px;
+  background: rgb(22, 72, 125);
+  background: linear-gradient(
+    87deg,
+    rgba(22, 72, 125, 1) 7%,
+    rgba(36, 36, 74, 1) 22%
+  );
+}
+.pooolcard3 {
+  background: rgb(114, 65, 86);
+  background: linear-gradient(
+    87deg,
+    rgba(114, 65, 86, 1) 7%,
+    rgba(36, 36, 74, 1) 22%
+  );
+}

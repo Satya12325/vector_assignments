@@ -1,0 +1,63 @@
+
+.navbar-logo{
+    display:flex;
+    width: 170px;
+
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.btns-container{
+display: flex;
+align-items: center;
+justify-content:space-between;
+width: 300px;
+margin-left: 50px;
+
+
+}
+.btns-container > div {
+    cursor: pointer;
+}
+.btns-active{
+    font-family: "DM Sans", sans-serif;
+
+font-size: 14px;
+
+font-weight: 700;
+
+line-height: 14px;
+
+ 
+
+}
+.btns-line{
+    border-top:3px solid #6869E7;
+    padding:0 10px;
+    width:50px;
+    margin-top:-12px;
+    padding-bottom: 7px;
+}
+.icon-btns{
+    display:flex;
+    width: 45%;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon-btns > div{
+    display: flex;
+    align-items: center;
+}
+.icon-btns > div > img {
+    width: 25px;
+    margin-right: 10px;
+}
+.wallet{
+    background: #24244A;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.wallet:hover{
+  background: #393953
+}
