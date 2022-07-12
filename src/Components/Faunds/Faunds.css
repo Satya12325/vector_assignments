@@ -35,9 +35,9 @@
 .cards > h3 {
   font-size: 22px;
 }
-.cards > p {
-  font-size: 12px;
-  font-weight: 500;
+.subtitle {
+  font-size: 12px !important;
+  font-weight: 500 !important;
   color: #c7c7e1;
 }
 

@@ -1,6 +1,7 @@
 import "./Faunds.css"
 import Protocol from "./Protocol"
-import Poolscard from "./Poolscard"
+import Poolscard from "./Poolscard";
+import Typography from '@mui/material/Typography';
 
 export default function Faunds() {
 
@@ -15,31 +16,33 @@ export default function Faunds() {
 
                 <div className="card-container">
                     <div className="cards">
-                        <p>YOUR DEPOSITS</p>
+                    <Typography className="subtitle" variant="body1" gutterBottom component="div">
+                        YOUR DEPOSITS
+                    </Typography>
 
 
-                        <h3>$0.00<span className="usd"> USD</span></h3>
+                        <Typography variant="h3">$0.00<span className="usd"> USD</span></Typography>
 
                     </div>
                     <div className="cards">
-                        <p >YOUR REWARDS</p>
+                        <Typography className="subtitle" variant="body1" gutterBottom component="div">YOUR REWARDS</Typography>
 
 
-                        <h3 className="rewards">$0.00<span className="usd"> USD</span></h3>
+                        <Typography className="rewards" variant="h3">$0.00<span className="usd"> USD</span></Typography>
 
                     </div>
                     <div className="cards" style={{ marginRight: "0px" }}>
-                        <p>VECTOR TOTAL TVL</p>
+                    <Typography className="subtitle" variant="body1" gutterBottom component="div">VECTOR TOTAL TVL</Typography>
 
 
-                        <h3>$99,600,822<span className="usd"> USD</span></h3>
+                        <Typography variant="h3">$99,600,822<span className="usd"> USD</span></Typography>
 
                     </div>
                 </div>
 
                 <div className="main-card">
                     <div className="card">
-                        <p>VECTOR TOTAL SUPPLY</p>
+                        <p className="">VECTOR TOTAL SUPPLY</p>
                         <h4>25,766,097 VTX</h4>
                     </div>
                     <div className="card">
