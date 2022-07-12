@@ -6,7 +6,7 @@ import Toolbar from '@mui/material/Toolbar';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import AccountBalanceWalletOutlinedIcon from '@mui/icons-material/AccountBalanceWalletOutlined';
 import LocalGasStationIcon from '@mui/icons-material/LocalGasStation';
-
+import Typography from '@mui/material/Typography';
 
 export default function Navbar() {
 
@@ -31,10 +31,10 @@ export default function Navbar() {
                     <div className="btns-container">
                         <div className="btns-active">
                             <div className="btns-line"></div>
-                            <p style={{ textAlign: 'center' }}>
+                            <Typography style={{ textAlign: 'center' }}>
 
                                 Stake
-                            </p>
+                            </Typography>
 
                         </div>
                         <div>
@@ -57,20 +57,20 @@ export default function Navbar() {
                     <div className="icon-btns">
                         <div>
                             <img src="https://vectorfinance.io/static/media/VTX.44f352d3.svg" alt="" />
-                            <span>$0.22</span>
+                            <Typography>$0.22</Typography>
                         </div>
                         <div>
                             <img src="https://vectorfinance.io/static/media/xPTP.9b9a2efe.svg" alt="" />
-                            <span>$0.18</span>
+                            <Typography>$0.18</Typography>
                         </div>
                         <div>
                             <img src="https://vectorfinance.io/static/media/zJOE.98990d92.svg" alt="" />
-                            <span>$0.22</span>
+                            <Typography>$0.22</Typography>
                         </div>
                         <div>
                             <LocalGasStationIcon
                               sx={{color:"#6869E7",marginRight:"10px"}} />
-                            <span>26.0</span>
+                            <Typography>26.0</Typography>
                         </div>
                         <div className="wallet">
                             
