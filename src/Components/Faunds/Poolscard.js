@@ -5,7 +5,8 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import ErrorIcon from '@mui/icons-material/Error';
-
+import Box from '@mui/material/Box';
+import "./Faunds.css"
 
 export default function Poolscard() {
 
@@ -13,49 +14,49 @@ export default function Poolscard() {
 
     return (
         <>
-            <div style={{ marginTop: "5px",marginBottom:"5px" }}>
+            <Box style={{ marginTop: "5px",marginBottom:"5px" }}>
                 <Accordion sx={{ color: "#FFFFFF" }} className="pooolcard1">
                     <AccordionSummary
                         expandIcon={<MoreVertIcon style={{ color: "#FFFFFF" }} />}
                         aria-controls="panel1a-content"
                         id="panel1a-header"
                     >
-                        <div className="panel-div">
-                            <div className="icons-div">
+                        <Box className="panel-Box">
+                            <Box className="icons-Box">
                                 <img src="https://vectorfinance.io/static/media/VTX.44f352d3.svg" alt="" />
-                                <div>
-                                    <h3>VTX</h3>
-                                    <p>ON TRADER JOE</p>
-                                </div>
-                            </div>
+                                <Box>
+                                    <Typography variant="h5" className="panel-heading">VTX</Typography>
+                                    <Typography>ON TRADER JOE</Typography>
+                                </Box>
+                            </Box>
 
-                            <div className="apr">
+                            <Box className="apr">
 
-                                <h5>APR</h5>
-                                <div><span  style={{ color:"#AEF33C"}}>5.8%</span><ErrorIcon sx={{fontSize:"15px",marginLeft:"10px",color:"#717299"}}/></div>
+                                <Typography variant="h5" sx={{fontSize:13,fontWeight:"bold"}}>APR</Typography>
+                                <Box style={{display: "flex",alignItems: "center"}}><Typography  style={{ color:"#AEF33C"}}>5.8%</Typography><ErrorIcon sx={{fontSize:"15px",marginLeft:"10px",color:"#717299"}}/></Box>
 
-                            </div>
-                            <div className="vtx">
+                            </Box>
+                            <Box className="vtx">
 
-                                <h5>Staked VTX</h5>
-                                <p>0.0 VTX</p>
+                                <Typography variant="h5" sx={{fontSize:13,fontWeight:"bold"}}>Staked VTX</Typography>
+                                <Typography>0.0 VTX</Typography>
 
-                            </div>
+                            </Box>
 
-                            <div className="tvl">
+                            <Box className="tvl">
 
-                                <h5>TVL</h5>
-                                <p>$4,356,038</p>
+                                <Typography variant="h5" sx={{fontSize:13,fontWeight:"bold"}}>TVL</Typography>
+                                <Typography>$4,356,038</Typography>
 
-                            </div>
+                            </Box>
 
-                            <div className="clamble">
+                            <Box className="clamble">
 
-                                <h5>Claimable</h5>
-                                <p>$0.00 <ErrorIcon sx={{fontSize:"15px",marginLeft:"10px",color:"#717299"}}/></p>
+                                <Typography variant="h5" sx={{fontSize:13,fontWeight:"bold"}}>Claimable</Typography>
+                                <Typography>$0.00 <ErrorIcon sx={{fontSize:"15px",marginLeft:"10px",color:"#717299"}}/></Typography>
 
-                            </div>
-                        </div>
+                            </Box>
+                        </Box>
                     </AccordionSummary>
                     <AccordionDetails style={{ background: "#24244A"}}>
                         <Typography>
@@ -68,50 +69,50 @@ export default function Poolscard() {
 
                
 
-            </div>
-            <div style={{ marginTop: "5px",marginBottom:"5px" }}>
+            </Box>
+            <Box style={{ marginTop: "5px",marginBottom:"5px" }}>
             <Accordion sx={{ color: "#FFFFFF" }} className="pooolcard2">
                     <AccordionSummary
                         expandIcon={<MoreVertIcon style={{ color: "#FFFFFF" }} />}
                         aria-controls="panel1a-content"
                         id="panel1a-header"
                     >
-                        <div className="panel-div">
-                            <div className="icons-div">
+                        <Box className="panel-Box">
+                            <Box className="icons-Box">
                                 <img src="https://vectorfinance.io/static/media/ptp.95c5ca66.svg" alt="" />
-                                <div>
-                                    <h3>VTX</h3>
-                                    <p>ON TRADER JOE</p>
-                                </div>
-                            </div>
+                                <Box>
+                                <Typography variant="h5" className="panel-heading">VTX</Typography>
+                                    <Typography>ON TRADER JOE</Typography>
+                                </Box>
+                            </Box>
 
-                            <div className="apr">
+                            <Box className="apr">
 
-                                <h5>APR</h5>
-                                <div><span  style={{ color:"#AEF33C"}}>64.3%</span><ErrorIcon sx={{fontSize:"15px",marginLeft:"10px",color:"#717299"}}/></div>
+                                <Typography variant="h5" sx={{fontSize:13,fontWeight:"bold"}}>APR</Typography>
+                                <Box style={{display: "flex",alignItems: "center"}}><Typography  style={{ color:"#AEF33C"}}>64.3%</Typography><ErrorIcon sx={{fontSize:"15px",marginLeft:"10px",color:"#717299"}}/></Box>
 
-                            </div>
-                            <div className="vtx">
+                            </Box>
+                            <Box className="vtx">
 
-                                <h5>Staked VTX</h5>
-                                <p>0.0 VTX</p>
+                                <Typography variant="h5" sx={{fontSize:13,fontWeight:"bold"}}>Staked VTX</Typography>
+                                <Typography>0.0 VTX</Typography>
 
-                            </div>
+                            </Box>
 
-                            <div className="tvl">
+                            <Box className="tvl">
 
-                                <h5>TVL</h5>
-                                <p>$4,356,038</p>
+                                <Typography variant="h5" sx={{fontSize:13,fontWeight:"bold"}}>TVL</Typography>
+                                <Typography>$4,356,038</Typography>
 
-                            </div>
+                            </Box>
 
-                            <div className="clamble">
+                            <Box className="clamble">
 
-                                <h5>Claimable</h5>
-                                <p>$0.00 <ErrorIcon sx={{fontSize:"15px",marginLeft:"10px",color:"#717299"}}/></p>
+                                <Typography variant="h5" sx={{fontSize:13,fontWeight:"bold"}}>Claimable</Typography>
+                                <Typography>$0.00 <ErrorIcon sx={{fontSize:"15px",marginLeft:"10px",color:"#717299"}}/></Typography>
 
-                            </div>
-                        </div>
+                            </Box>
+                        </Box>
                     </AccordionSummary>
                     <AccordionDetails style={{ background: "#24244A"}}>
                         <Typography>
@@ -120,50 +121,51 @@ export default function Poolscard() {
                         </Typography>
                     </AccordionDetails>
                 </Accordion>              
-            </div>
-            <div style={{ marginTop: "5px",marginBottom:"5px" }}>
+            </Box>
+
+            <Box style={{ marginTop: "5px",marginBottom:"5px" }}>
             <Accordion sx={{ color: "#FFFFFF" }} className="pooolcard3">
                     <AccordionSummary
                         expandIcon={<MoreVertIcon style={{ color: "#FFFFFF" }} />}
                         aria-controls="panel1a-content"
                         id="panel1a-header"
                     >
-                        <div className="panel-div">
-                            <div className="icons-div">
+                        <Box className="panel-Box">
+                            <Box className="icons-Box">
                                 <img src="https://vectorfinance.io/static/media/JOE.14ec321a.svg" alt="" />
-                                <div>
-                                    <h3>VTX</h3>
-                                    <p>ON TRADER JOE</p>
-                                </div>
-                            </div>
+                                <Box>
+                                <Typography variant="h5" className="panel-heading">VTX</Typography>
+                                    <Typography>ON TRADER JOE</Typography>
+                                </Box>
+                            </Box>
 
-                            <div className="apr">
+                            <Box className="apr">
 
-                                <h5>APR</h5>
-                                <div><span  style={{ color:"#AEF33C"}}>80.9%</span><ErrorIcon sx={{fontSize:"15px",marginLeft:"10px",color:"#717299"}}/></div>
+                                <Typography variant="h5" sx={{fontSize:13,fontWeight:"bold"}}>APR</Typography>
+                                <Box style={{display: "flex",alignItems: "center"}}><Typography  style={{ color:"#AEF33C"}}>80.9%</Typography><ErrorIcon sx={{fontSize:"15px",marginLeft:"10px",color:"#717299"}}/></Box>
 
-                            </div>
-                            <div className="vtx">
+                            </Box>
+                            <Box className="vtx">
 
-                                <h5>Staked VTX</h5>
-                                <p>0.0 VTX</p>
+                                <Typography variant="h5" sx={{fontSize:13,fontWeight:"bold"}}>Staked VTX</Typography>
+                                <Typography>0.0 VTX</Typography>
 
-                            </div>
+                            </Box>
 
-                            <div className="tvl">
+                            <Box className="tvl">
 
-                                <h5>TVL</h5>
-                                <p>$4,356,038</p>
+                                <Typography variant="h5" sx={{fontSize:13,fontWeight:"bold"}}>TVL</Typography>
+                                <Typography>$4,356,038</Typography>
 
-                            </div>
+                            </Box>
 
-                            <div className="clamble">
+                            <Box className="clamble">
 
-                                <h5>Claimable</h5>
-                                <p>$0.00 <ErrorIcon sx={{fontSize:"15px",marginLeft:"10px",color:"#717299"}}/></p>
+                                <Typography variant="h5" sx={{fontSize:13,fontWeight:"bold"}}>Claimable</Typography>
+                                <Typography>$0.00 <ErrorIcon sx={{fontSize:"15px",marginLeft:"10px",color:"#717299"}}/></Typography>
 
-                            </div>
-                        </div>
+                            </Box>
+                        </Box>
                     </AccordionSummary>
                     <AccordionDetails style={{ background: "#24244A"}}>
                         <Typography>
@@ -172,7 +174,7 @@ export default function Poolscard() {
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
-                </div>
+                </Box>
         </>
     )
 }

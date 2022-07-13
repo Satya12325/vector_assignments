@@ -42,24 +42,24 @@ export default function Faunds() {
 
                 <div className="main-card">
                     <div className="card">
-                        <p className="">VECTOR TOTAL SUPPLY</p>
-                        <h4>25,766,097 VTX</h4>
+                        <Typography sx={{marginBottom:2}}>VECTOR TOTAL SUPPLY</Typography>
+                        <Typography variant="h4" sx={{fontSize:13,fontWeight:"bold"}}>25,766,097 VTX</Typography>
                     </div>
                     <div className="card">
-                        <p>MARKET CAP</p>
-                        <h4>$5,849,253 USD</h4>
+                        <Typography sx={{marginBottom:2}}>MARKET CAP</Typography>
+                        <Typography variant="h5" sx={{fontSize:13,fontWeight:"bold"}}>$5,849,253 USD</Typography>
                     </div>
                     <div className="card">
-                        <p>TOTAL LOCKED</p>
-                        <h4>17,867,459 VTX</h4>
+                        <Typography sx={{marginBottom:2}}>TOTAL LOCKED</Typography>
+                        <Typography variant="h5" sx={{fontSize:13,fontWeight:"bold"}}>17,867,459 VTX</Typography>
                     </div>
                     <div className="card">
-                        <p>TOTAL CIRCULATING</p>
-                        <h4>7,898,638 VTX</h4>
+                        <Typography sx={{marginBottom:2}}>TOTAL CIRCULATING</Typography>
+                        <Typography variant="h5" sx={{fontSize:13,fontWeight:"bold"}}>7,898,638 VTX</Typography>
                     </div>
                     <div className="card" style={{ borderRight: "0" }}>
-                        <p>TOTAL REVENUE</p>
-                        <h4>$1,582,010 USD</h4>
+                        <Typography sx={{marginBottom:2}}>TOTAL REVENUE</Typography>
+                        <Typography variant="h5" sx={{fontSize:13,fontWeight:"bold"}}>$1,582,010 USD</Typography>
                     </div>
                 </div>
 

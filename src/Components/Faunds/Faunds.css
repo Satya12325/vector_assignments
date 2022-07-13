@@ -44,7 +44,7 @@
 .card {
   width: 20%;
   padding: 5px;
-  line-height: 0;
+  
   margin-left: 15px;
   padding-top: 12px;
   border-right: 0.5px solid #24244a;
@@ -92,8 +92,10 @@
   font-weight: 500;
   color: #c7c7e1;
 }
-h5 {
-  color: #c7c7e1;
+.panel-heading {
+  color: #c7c7e1 !important;
+  font-size: 18px !important;
+  font-weight:bold !important;
 }
 .panel-div {
   /* padding: 10px; */
@@ -107,13 +109,13 @@ h5 {
 }
 
 .vtx {
-  line-height: 0.5;
+  line-height: 0;
 }
 .tvl {
-  line-height: 0.5;
+  line-height: 0;
 }
-.clamble h5 {
-  line-height: 0.5;
+.clamble {
+  line-height: 0;
   color: #c7c7e1;
 }
 .clamble > h5 {
@@ -146,4 +148,15 @@ h5 {
     rgba(114, 65, 86, 1) 7%,
     rgba(36, 36, 74, 1) 22%
   );
+}
+
+.panel-Box{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.icons-Box{
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
 }
